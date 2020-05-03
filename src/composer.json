@@ -1,0 +1,20 @@
+{
+    "name": "projeto/mvc",
+    "description": "Inicio MVC.",
+    "authors": [
+        {
+            "name": "Naira Janaina",
+            "email": "jnadf22@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload" : {
+        "psr-4": {
+            "App\\":"../app/",
+            "Src\\":"../src/"
+
+        }
+    }
+}
